@@ -3,6 +3,7 @@
   <p>
 É mais apropriado optar por ícones no formato SVG ou PNG ao formatar elementos em websites?</p>
 </div>
+<br />
 
 ### Razões para o SVG ser uma boa escolha:
 
@@ -18,3 +19,31 @@
 - Ferramentas já disponíveis para a criação de spritesheets em formato PNG.
 - A maioria dos usuários possui um editor compatível com o formato PNG em seus computadores.
 - Ideal para imagens como fotografias ou outros tipos difíceis de vetorizar.
+
+<br />
+
+<h2 align="center">Exemplos de SVG e PNG</h2>
+
+Logo em SVG (com zoom):
+<img src="./assets/logo/logo-svg.png" />
+
+Logo em PNG (com zoom):
+<img src="./assets/logo/logo-png.png" />
+
+<h2 align="center">Formas de Implementar SVG</h2>
+
+### SVG inline
+
+Implementar o SVG direto no código HTML:
+
+<img src="./assets/example-codes/ex-3.png" />
+
+### SVG dentro de uma tag IMG
+
+Salvando o SVG em um arquivo `.svg`:
+
+<img src="./assets/example-codes/ex-1.png" />
+
+Implentar ele na tag `img`:
+
+<img src="./assets/example-codes/ex-2.png" />
