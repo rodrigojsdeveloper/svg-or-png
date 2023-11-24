@@ -1,49 +1,65 @@
 <div align="center">
-  <h1>SVG ou PNG</h1>  
+  <h1>Escolha entre SVG e PNG</h1>  
   <p>
-É mais apropriado optar por ícones no formato SVG ou PNG ao formatar elementos em websites?</p>
+    Faça a escolha certa entre ícones no formato SVG ou PNG ao formatar elementos em websites.</p>
 </div>
 <br />
 
-### Razões para o SVG ser uma boa escolha:
+### Razões para Escolher SVG:
 
-- Oferece suporte fluido em navegadores de todas as dimensões, tornando a experiência mais leve, por ser um vetor.
-- Facilita a escalabilidade para cima ou para baixo, permitindo efeitos de hover.
-- Possibilita a incorporação e modificação em tempo real de SVGs utilizando JavaScript.
-- Permite estilizar SVGs ou suas partes utilizando CSS, como alteração de cores e contornos.
-- Capacita a geração dinâmica de SVGs tanto no cliente quanto no servidor. Sua estrutura baseada em texto elimina a necessidade de bibliotecas de baixo nível ou servidores robustos para sua criação.
+- **Opte pela Leveza:**
+  - Escolha SVG para uma experiência mais leve, com suporte fluido em navegadores de todas as dimensões, graças ao seu formato vetorial.
 
-### Razões para o PNG ser uma boa escolha:
+- **Flexibilidade de Escalabilidade:**
+  - Facilite a escalabilidade para cima ou para baixo e aproveite efeitos de hover exclusivos com SVG.
 
-- Aprimorado suporte em todos os navegadores.
-- Ferramentas já disponíveis para a criação de spritesheets em formato PNG.
-- A maioria dos usuários possui um editor compatível com o formato PNG em seus computadores.
-- Ideal para imagens como fotografias ou outros tipos difíceis de vetorizar.
+- **Interatividade com JavaScript:**
+  - Utilize SVG para incorporação e modificação em tempo real, permitindo interações dinâmicas com JavaScript.
+
+- **Estilização Simples com CSS:**
+  - Estilize SVGs ou suas partes com facilidade usando CSS, alterando cores e contornos conforme necessário.
+
+- **Geração Dinâmica:**
+  - Capacite a geração dinâmica de SVGs no cliente ou servidor, eliminando a necessidade de bibliotecas de baixo nível.
+
+### Razões para Escolher PNG:
+
+- **Compatibilidade Amparada:**
+  - Escolha PNG para um suporte otimizado em todos os navegadores.
+
+- **Ferramentas Conhecidas:**
+  - Utilize ferramentas disponíveis para a criação de spritesheets em formato PNG.
+
+- **Ampla Disponibilidade:**
+  - Aproveite a ampla disponibilidade de editores compatíveis com PNG nos computadores da maioria dos usuários.
+
+- **Ideal para Fotografias e Mais:**
+  - Selecione PNG para imagens como fotografias ou outros tipos difíceis de vetorizar.
 
 <br />
 
 <h2 align="center">Exemplos de SVG e PNG</h2>
 
-Logo em SVG (com zoom):
+Logo em SVG:
 <img src="./assets/logo/logo-svg.png" />
 
-Logo em PNG (com zoom):
+Logo em PNG:
 <img src="./assets/logo/logo-png.png" />
 
 <h2 align="center">Formas de Implementar SVG</h2>
 
-### SVG inline
+### SVG Inline
 
-Implementar o SVG direto no código HTML:
+Implemente o SVG diretamente no código HTML:
 
 <img src="./assets/example-codes/ex-3.png" />
 
-### SVG dentro de uma tag IMG
+### SVG Dentro de uma Tag IMG
 
-Salvando o SVG em um arquivo `.svg`:
+Salve o SVG em um arquivo `.svg`:
 
 <img src="./assets/example-codes/ex-1.png" />
 
-Implentar ele na tag `img`:
+Implemente-o na tag `img`:
 
 <img src="./assets/example-codes/ex-2.png" />
